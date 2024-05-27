@@ -16,12 +16,17 @@
  pageRef = "posts"
  weight = 10
 
- [[main]]
+[[main]]
   name = "About"
   pre = "circle-info"
   pageRef = "/about"
   weight = 50
 
+[[main]]
+  name = "Post RSS"
+  pre = "rss"
+  url = "posts/index.xml"
+  weight = 90
 #[[main]]
 #  name = "Parent"
 #  weight = 20

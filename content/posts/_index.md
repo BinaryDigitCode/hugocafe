@@ -1,7 +1,7 @@
 ---
 title: "Posts and Short Articles"
 description: "BinaryDigit's digital garden, aka cafe, of ideas and notes."
-showAuthor: false
+aliases: ["notes", "articles"]
 ---
 
 <link href="https://binarydigit.cafe" rel="me">

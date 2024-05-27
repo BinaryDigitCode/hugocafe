@@ -1,6 +1,7 @@
 ---
 title: "About Me and Website"
 description: About & Colophon
+aliases: ["contact", "about-me", "colophon"]
 showcomments: false
 ---
 

@@ -14,7 +14,7 @@ disableImageOptimization = true
 disableTextInHeader = false
 
 defaultBackgroundImage = "images/background-squares-freepik.jpg" # used as default for background images 
-defaultFeaturedImage = "images/background-squares-freepik.jpg" # used as default for featured images in all articles
+defaultFeaturedImage = "images/default-feature-thumb.png" # used as default for featured images in all articles
 
 # highlightCurrentMenuArea = true
 # smartTOC = true
@@ -60,7 +60,7 @@ defaultFeaturedImage = "images/background-squares-freepik.jpg" # used as default
   editAppendPath = true
   seriesOpened = false
   showHeadingAnchors = true
-  showPagination = true
+  showPagination = false
   invertPagination = false
   showReadingTime = false
   showTableOfContents = true
@@ -71,6 +71,7 @@ defaultFeaturedImage = "images/background-squares-freepik.jpg" # used as default
   showWordCount = false
   # sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram"]
   showZenMode = false
+  showComments = true
 
 [list]
   showHero = true
