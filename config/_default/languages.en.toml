@@ -1,0 +1,27 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "BinaryDigit's Cafe"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "Jan 2 2006"
+logo = "images/michigan-flation.png"
+secondaryLogo = "images/statue-of-liberty-flaticon.png"
+description = "A random collection of notes and articles."
+copyright = '<script src="https://status.lol/binarydigit.js?time&link&fluent"></script>'
+
+[author]
+name = "BinaryDigit"
+image = "images/AC-Profile-Photo.png"
+headline = "My digital home for hobbies and notes"
+bio = "My digital home for hobbies and notes"
+links = [
+    { pencil = "https://notes.binarydigit.cafe/" },
+    { mastodon = "https://social.lol/@BinaryDigit/" },
+    { soundcloud = "https://soundcloud.com/binarydigitdj"},
+    { prami = "https://binarydigit.omg.lol/" },
+    { envelope = "https://letterbird.co/binarydigit"}
+]

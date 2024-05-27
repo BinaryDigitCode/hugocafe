@@ -1,0 +1,1 @@
+A collection of thoughts and random things. _Forever changing and tinkering._ 😆

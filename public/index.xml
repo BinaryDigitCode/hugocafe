@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BinaryDigit&#39;s Cafe</title>
+    <link>https://binarydigit.cafe/</link>
+    <description>Recent content on BinaryDigit&#39;s Cafe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 </copyright>
+    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://binarydigit.cafe/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello WeblogPoMo in 2024</title>
+      <link>https://binarydigit.cafe/posts/hello-weblogpomo-in-2024/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://binarydigit.cafe/posts/hello-weblogpomo-in-2024/</guid>
+      <description>I&amp;#39;ve never successfully done any of these challenges such as photo a day or blogging a day, but why not give it a try right?</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://binarydigit.cafe/posts/hello-weblogpomo-in-2024/feature-helloweblogpomo.png" />
+    </item>
+    
+    <item>
+      <title>Giscus for Comments</title>
+      <link>https://binarydigit.cafe/posts/giscus-comments/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://binarydigit.cafe/posts/giscus-comments/</guid>
+      <description>I&amp;rsquo;ve decided to remove webmentions from this website, in favor of trying out Giscus, a commenting system powered by GitHub discussions.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://binarydigit.cafe/posts/giscus-comments/feature-giscus.png" />
+    </item>
+    
+    <item>
+      <title>Micro.blog Premium Explained</title>
+      <link>https://binarydigit.cafe/posts/microblog-premium-explained/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://binarydigit.cafe/posts/microblog-premium-explained/</guid>
+      <description>📒 Originally posted on my old micro.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://binarydigit.cafe/posts/microblog-premium-explained/feature-mbexplained.png" />
+    </item>
+    
+    <item>
+      <title>Celebrate How You Want To</title>
+      <link>https://binarydigit.cafe/posts/celebrate/</link>
+      <pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://binarydigit.cafe/posts/celebrate/</guid>
+      <description>Gaming with Friends # I play Counter-Strike almost every night with my boyfriend and our buddies in our discord.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://binarydigit.cafe/posts/celebrate/feature-cs2.png" />
+    </item>
+    
+    <item>
+      <title>Migrating my Hugo Website to Neocities and Deploying with GitHub Actions</title>
+      <link>https://binarydigit.cafe/posts/neocities-github-actions/</link>
+      <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://binarydigit.cafe/posts/neocities-github-actions/</guid>
+      <description>Neocities # I&amp;rsquo;ve always loved the idea of Neocities and have tinkered with my free site there for a few months but never landed on a long term project.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://binarydigit.cafe/posts/neocities-github-actions/feature-neocities.png" />
+    </item>
+    
+    <item>
+      <title>Small Web Blogs Compared - Updated</title>
+      <link>https://binarydigit.cafe/posts/small-web-blogs/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://binarydigit.cafe/posts/small-web-blogs/</guid>
+      <description>Remember when I said below &amp;ldquo;And don&amp;rsquo;t be surprised if I write a new update in 6 months when I change my mind to another service.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://binarydigit.cafe/posts/small-web-blogs/feature-blog-compare.png" />
+    </item>
+    
+    <item>
+      <title>App Defaults</title>
+      <link>https://binarydigit.cafe/posts/app-defaults/</link>
+      <pubDate>Thu, 08 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://binarydigit.cafe/posts/app-defaults/</guid>
+      <description>I finally caught up with the infamous Hemispheric Views episode &amp;ldquo;Duel of the Defaults!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://binarydigit.cafe/posts/app-defaults/feature-dmitry-chernyshov-mP7aPSUm7aE-unsplash.jpg" />
+    </item>
+    
+    <item>
+      <title>Gitea for the Cafe</title>
+      <link>https://binarydigit.cafe/posts/gitea-cafe/</link>
+      <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://binarydigit.cafe/posts/gitea-cafe/</guid>
+      <description>I saw the news that the co-founder of Github was banned via Hacker News - tweet here.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://binarydigit.cafe/posts/gitea-cafe/feature-gitea.png" />
+    </item>
+    
+    <item>
+      <title>The Joy of Old Tech Shows</title>
+      <link>https://binarydigit.cafe/posts/the-joy-of-old-tech-shows/</link>
+      <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://binarydigit.cafe/posts/the-joy-of-old-tech-shows/</guid>
+      <description>I love waking up in the mornings, making a cup of coffee, and seeing what Twitch streams are online.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://binarydigit.cafe/posts/the-joy-of-old-tech-shows/feature-techtv.png" />
+    </item>
+    
+    <item>
+      <title>Achievement Unlocked! 🎉</title>
+      <link>https://binarydigit.cafe/posts/loanbegone/</link>
+      <pubDate>Fri, 02 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://binarydigit.cafe/posts/loanbegone/</guid>
+      <description>The goal I&amp;rsquo;ve had for 20 years is complete!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://binarydigit.cafe/posts/loanbegone/feature-unlocked.png" />
+    </item>
+    
+    <item>
+      <title>Goals for February</title>
+      <link>https://binarydigit.cafe/posts/feb2024/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://binarydigit.cafe/posts/feb2024/</guid>
+      <description>For these next upcoming weeks, these are the goals I have in my head:</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://binarydigit.cafe/posts/feb2024/feature-feb-2024.png" />
+    </item>
+    
+    <item>
+      <title>Goals for January</title>
+      <link>https://binarydigit.cafe/posts/goals2024/</link>
+      <pubDate>Sat, 13 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://binarydigit.cafe/posts/goals2024/</guid>
+      <description>I can&amp;rsquo;t believe it&amp;rsquo;s 2024!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://binarydigit.cafe/posts/goals2024/feature-goals.png" />
+    </item>
+    
+    <item>
+      <title>My Website Setup</title>
+      <link>https://binarydigit.cafe/posts/hugo-setup/</link>
+      <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://binarydigit.cafe/posts/hugo-setup/</guid>
+      <description>Static Site Generators # For ages I resisted static site generators.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://binarydigit.cafe/posts/hugo-setup/feature-dino.jpg" />
+    </item>
+    
+    <item>
+      <title>Welcome to my Digital Cafe</title>
+      <link>https://binarydigit.cafe/posts/hello/</link>
+      <pubDate>Thu, 16 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://binarydigit.cafe/posts/hello/</guid>
+      <description>Welcome to my attempt at a new site with Hugo, finally, on my own domain and hosted via netlify/github!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://binarydigit.cafe/posts/hello/feature-rainbow.jpg" />
+    </item>
+    
+    <item>
+      <title>About Me and Website</title>
+      <link>https://binarydigit.cafe/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://binarydigit.cafe/about/</guid>
+      <description>About Me # I’m B (aka Liz), a Xennial who grew up when the internet was young, just as I was.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
