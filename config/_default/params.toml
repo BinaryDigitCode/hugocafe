@@ -8,7 +8,7 @@ enableSearch = true
 enableCodeCopy = false
 
 # mainSections = ["section1", "section2"]
-robots = "robots.txt"
+# robots = "robots.txt"
 
 disableImageOptimization = true
 disableTextInHeader = false
@@ -16,9 +16,9 @@ disableTextInHeader = false
 defaultBackgroundImage = "images/background-squares-freepik.jpg" # used as default for background images 
 defaultFeaturedImage = "images/default-feature-thumb.png" # used as default for featured images in all articles
 
-# highlightCurrentMenuArea = true
-# smartTOC = true
-# smartTOCHideUnfocusedChildren = true
+highlightCurrentMenuArea = true
+smartTOC = true
+smartTOCHideUnfocusedChildren = true
 
 [header]
   layout = "fixed" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur

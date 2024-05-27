@@ -22,11 +22,18 @@
   pageRef = "/about"
   weight = 50
 
-[[main]]
-  name = "Post RSS"
+[[subnavigation]]
+ name = "Tags"
+ pre = "tag"
+ pageRef = "tags"
+ weight = 10
+
+[[subnavigation]]
+  name = "RSS"
   pre = "rss"
   url = "posts/index.xml"
-  weight = 90
+  weight = 60
+
 #[[main]]
 #  name = "Parent"
 #  weight = 20
