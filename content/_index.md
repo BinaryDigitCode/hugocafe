@@ -1,1 +1,1 @@
-A collection of thoughts and random things. _Forever changing and tinkering._ 😆
+Welcome to my corner of the web! Read more [about](/about) me and say hi on [Mastodon](https://social.lol/@binarydigit) 👋🏽
