@@ -4,18 +4,24 @@
 
   <url>
     <loc>https://binarydigit.cafe/</loc>
-    <lastmod>2024-05-01T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-27T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://binarydigit.cafe/posts/hello-weblogpomo-in-2024/</loc>
-    <lastmod>2024-05-01T00:00:00+00:00</lastmod>
+    <loc>https://binarydigit.cafe/posts/always-tinkering/</loc>
+    <lastmod>2024-05-27T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://binarydigit.cafe/posts/</loc>
+    <lastmod>2024-05-27T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://binarydigit.cafe/posts/hello-weblogpomo-in-2024/</loc>
     <lastmod>2024-05-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

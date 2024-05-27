@@ -10,3 +10,8 @@ command = "hugo --gc --minify"
   from = "/feed.xml"
   to = "/posts/index.xml"
   status = 301
+
+[[redirects]]
+  from = "/now"
+  to = "https://now.binarydigit.cafe"
+  status = 301  

@@ -19,9 +19,11 @@ image = "images/AC-Profile-Photo.png"
 headline = "My digital home for hobbies and notes"
 bio = "My digital home for hobbies and notes"
 links = [
-    { pencil = "https://notes.binarydigit.cafe/" },
+    { notebook = "https://notes.binarydigit.cafe/" },
+    { clock = "https://now.binarydigit.cafe"},
+    { link = "https://links.binarydigit.cafe"},
     { mastodon = "https://social.lol/@BinaryDigit/" },
-    { soundcloud = "https://soundcloud.com/binarydigitdj"},
-    { prami = "https://binarydigit.omg.lol/" },
-    { envelope = "https://letterbird.co/binarydigit"}
+    { twitch = "https://twitch.tv/binarydigit"},
+    { github = "https://github.com/BinaryDigitCode"},
+    { mail-forward = "https://letterbird.co/binarydigit"}
 ]
