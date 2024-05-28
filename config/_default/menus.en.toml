@@ -1,7 +1,7 @@
 # -- Main Menu --
 # The main menu is displayed in the header at the top of the page.
 # Acceptable parameters are name, pageRef, page, url, title, weight.
-# 
+#
 # The simplest menu configuration is to provide:
 #   name = The name to be displayed for this menu link
 #   pageRef = The identifier of the page or section to link to
@@ -15,6 +15,12 @@
  pre = "bars"
  pageRef = "posts"
  weight = 10
+
+# [[main]]
+#  name = "Links"
+#  pre = "link"
+#  pageRef = "/links/"
+#  weight = 40
 
 [[main]]
   name = "About"
@@ -32,7 +38,7 @@
   name = "RSS"
   pre = "rss"
   url = "https://binarydigit.cafe/posts/index.xml"
-  weight = 60
+  weight = 20
 
 #[[main]]
 #  name = "Parent"
