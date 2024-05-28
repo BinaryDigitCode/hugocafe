@@ -11,7 +11,7 @@ dateFormat = "Jan 2 2006"
 logo = "images/michigan-flation.png"
 secondaryLogo = "images/statue-of-liberty-flaticon.png"
 description = "A random collection of notes and articles."
-copyright = '<script src="https://status.lol/binarydigit.js?time&link&fluent"></script>'
+# copyright = 'BinaryDigit'
 
 [author]
 name = "BinaryDigit"

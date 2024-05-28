@@ -21,7 +21,7 @@
     </nav>
     {{ end }}
   {{ end }}
-  <div class="flex items-center justify-between">   
+  <div class="flex items-center justify-between">
     {{/* Copyright */}}
     {{ if .Site.Params.footer.showCopyright | default true }}
     <p class="text-sm text-neutral-500 dark:text-neutral-400">
@@ -37,17 +37,15 @@
 
     {{/* Theme attribution */}}
 
-    <p class="text-sm text-neutral-500 dark:text-neutral-400">
-      <!-- Webring --> 
-      <a href="https://webri.ng/webring/cssjoy/previous?via=https://binarydigit.cafe/">&#8678; </a>
-      <a href="https://webri.ng/webring/cssjoy/random?via=https://binarydigit.cafe/">CSS JOY</a>
-      <a href="https://webri.ng/webring/cssjoy/next?via=https://binarydigit.cafe/"> &#8680;</a> 
-  <!-- Webring -->
-  </p>
+<!-- <p class="text-sm text-neutral-500 dark:text-neutral-400">
+    <a href="https://webri.ng/webring/cssjoy/previous?via=https://binarydigit.cafe/">&#8678; </a>
+    <a href="https://webri.ng/webring/cssjoy/random?via=https://binarydigit.cafe/">CSS JOY</a>
+    <a href="https://webri.ng/webring/cssjoy/next?via=https://binarydigit.cafe/"> &#8680;</a>
+</p> -->
 
     {{ if .Site.Params.footer.showThemeAttribution | default true }}
     <p class="text-xs text-neutral-500 dark:text-neutral-400">
-      
+
       {{ $hugo := printf `<a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
         href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a>`
       }}

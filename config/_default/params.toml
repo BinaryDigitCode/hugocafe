@@ -13,7 +13,7 @@ enableCodeCopy = false
 disableImageOptimization = true
 disableTextInHeader = false
 
-defaultBackgroundImage = "images/background-squares-freepik.jpg" # used as default for background images 
+defaultBackgroundImage = "images/background-squares-freepik.jpg" # used as default for background images
 defaultFeaturedImage = "images/default-feature-thumb.png" # used as default for featured images in all articles
 
 highlightCurrentMenuArea = true
@@ -25,7 +25,7 @@ smartTOCHideUnfocusedChildren = true
 
 [footer]
   showMenu = true
-  showCopyright = true
+  showCopyright = false
   showThemeAttribution = false
   showAppearanceSwitcher = true
   showScrollToTop = false
