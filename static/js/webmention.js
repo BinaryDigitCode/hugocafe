@@ -180,8 +180,8 @@ A more detailed example:
   }
 
   function formatReactions (reacts) {
-    let html = '<h2>Webmention likes:</h2><ul class="reacts">'
-
+    // let html = '<h2>Webmentions</h2><ul class="reacts">'
+    let html = '<ul class="reacts">'
     reacts.forEach(function (r) {
       html += '<li><div class="webmention">'
       html += reactImage(r)
@@ -191,7 +191,7 @@ A more detailed example:
   }
 
   function formatComments (comments) {
-    //  let html = '<h2>Webmentions:</h2><ul class="comments">'
+     let html = '<h2>Likes:</h2><ul class="comments">'
     // comments.forEach(function (c) {
     //   html += '<li><div class="webmention">'
 
