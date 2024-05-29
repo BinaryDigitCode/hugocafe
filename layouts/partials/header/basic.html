@@ -1,14 +1,10 @@
     <!-- IndieAuth -->
-    <link rel="authorization_endpoint" href="https://indieauth.com/auth">
-    <link rel="token_endpoint" href="https://tokens.indieauth.com/token"> {{ with .Site.Params.githubuser }}
-    <link rel="me" href="https://github.com/{{ . }}" />{{ end }} {{ with .Site.Params.twitteruser }}
-    <link rel="me" href="https://twitter.com/{{ . }}" />{{ end }} {{ with .Site.Params.mastodon }}
-    <link rel="me" href="{{ . }}" />{{ end }}
-    <!-- Webmention -->
-    {{ with .Site.Params.webmentionUrl }}
-    <link rel="webmention" href="{{ . }}" />{{ end }} {{ with .Site.Params.pingbackUrl }}
-    <link rel="pingback" href="{{ . }}" />{{ end }}
-
+    <link rel="me" href="https://github.com/BinaryDigitCode" />
+    <link rel="me" href="mailto:hi@binarydigit.cafe" />
+    <link rel="me" href="https://social.lol/@binarydigit" />
+    <!-- Webmention.io -->
+    <link rel="webmention" href="https://webmention.io/binarydigit.cafe/webmention" />
+    <script src="js/webmention.min.js" comments-are-reactions="true" async></script>
 
 <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
     class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
