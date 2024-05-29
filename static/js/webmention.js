@@ -180,7 +180,7 @@ A more detailed example:
   }
 
   function formatComments (comments) {
-    let html = '<h2>Webmentions</h2><ul class="comments">'
+    let html = '<details><summary><h2>Webmentions</h2><ul class="comments">'
     comments.forEach(function (c) {
       html += '<li><div class="webmention">'
 
@@ -192,7 +192,7 @@ A more detailed example:
         html += entities(c.url.split('/')[2])
       }
 
-      html += '</a> ' + reactImage(c) + ' ' + publishDate(c.published) + '</div>'
+      html += '</a> ' + reactImage(c) + ' ' + publishDate(c.published) + '</div></summary></details>'
 
       let linkclass
       let linktext
@@ -313,7 +313,7 @@ A more detailed example:
       }
       container.innerHTML = html
       // Just show counts of webmentions
-      //   const count = comments.length + collects.length
+        const count = comments.length + collects.length
         if (count > 0) {
           counter.innerHTML = count
         }
