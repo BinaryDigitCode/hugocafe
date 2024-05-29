@@ -138,10 +138,10 @@ A more detailed example:
     if (r.author && r.author.photo) {
       html += '<img class="webmention__author__img" src="' + entities(r.author.photo) + '">'
     }
-    // html += (reactEmoji[r['wm-property']] )
-    // if (r.rsvp && rsvpEmoji[r.rsvp]) {
-    //   html += '<sub>' + rsvpEmoji[r.rsvp] + '</sub>'
-    // }
+    html += (reactEmoji[r['wm-property']] )
+    if (r.rsvp && rsvpEmoji[r.rsvp]) {
+      html += '<sub>' + rsvpEmoji[r.rsvp] + '</sub>'
+    }
     html += '</a>'
 
     return html
@@ -179,8 +179,19 @@ A more detailed example:
     return filtered
   }
 
+  function formatReactions (reacts) {
+    let html = '<h2>Appreciation</h2><ul class="reacts">'
+
+    reacts.forEach(function (r) {
+      html += '<li><div class="webmention">'
+      html += reactImage(r)
+    })
+
+    return html
+  }
+
   function formatComments (comments) {
-    let html = '<details><summary><h2>Webmentions</h2><ul class="comments">'
+    let html = '<h2>Webmentions</h2><ul class="comments">'
     comments.forEach(function (c) {
       html += '<li><div class="webmention">'
 
@@ -192,7 +203,7 @@ A more detailed example:
         html += entities(c.url.split('/')[2])
       }
 
-      html += '</a> ' + reactImage(c) + ' ' + publishDate(c.published) + '</div></summary></details>'
+      html += '</a> ' + reactImage(c) + ' ' + publishDate(c.published) + '</div>'
 
       let linkclass
       let linktext
@@ -223,16 +234,7 @@ A more detailed example:
     return html
   }
 
-  function formatReactions (reacts) {
-    let html = '<h2>Appreciation</h2><ul class="reacts">'
 
-    reacts.forEach(function (r) {
-      html += '<li><div class="webmention">'
-      html += reactImage(r)
-    })
-
-    return html
-  }
 
   function getData (url, callback) {
     if (window.fetch) {
