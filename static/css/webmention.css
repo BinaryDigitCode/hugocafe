@@ -78,6 +78,6 @@
     border-radius: 50%;
 }
 
-tinylytics_webring_avatar{
-    max-width: 20px;
+img.tinylytics_webring_avatar {
+    max-width: 10%;
 }
