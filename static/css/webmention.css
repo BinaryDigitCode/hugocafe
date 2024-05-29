@@ -28,9 +28,11 @@
     list-style-type: none;
     margin: 0;
     padding: 4px;
+    overflow: hidden;
 }
 
 #webmentions li {
+    float: left;
     text-indent: -1em;
     padding-left: 1em;
 }
@@ -71,12 +73,10 @@
     color: #111;
 }
 #webmentions img {
-    max-width: 50px;
-    max-height: 50px;
+    max-width: 30px;
+    max-height: 30px;
 }
-/* #webmentions img {
-    max-height: 1.2em; margin-right: -1ex;
-} */
+
 tinylytics_webring_avatar{
     max-width: 20px;
 }
