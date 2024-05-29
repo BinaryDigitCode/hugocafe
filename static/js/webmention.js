@@ -219,7 +219,7 @@ A more detailed example:
 
       html += '</div></li>'
     })
-    html += '</ul><div class="page-separator"><hr /></div>'
+    // html += '</ul><div class="page-separator"><hr /></div>'
 
     return html
   }

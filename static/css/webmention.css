@@ -8,15 +8,11 @@
 #webmentions .comments {
     max-height: 20em;
     overflow-x: hidden;
-    overflow-y: scroll;
-    font-size: 80%;
 }
 
 #webmentions h2 {
-    font-size: medium;
     margin: 0;
     padding: 2px;
-    background: #ccc;
 }
 
 #webmentions .reacts img {
@@ -81,3 +77,6 @@
 /* #webmentions img {
     max-height: 1.2em; margin-right: -1ex;
 } */
+tinylytics_webring_avatar{
+    max-width: 20px;
+}
