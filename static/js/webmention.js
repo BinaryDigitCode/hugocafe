@@ -140,7 +140,7 @@ A more detailed example:
     }
     html += (reactEmoji[r['wm-property']] )
     if (r.rsvp && rsvpEmoji[r.rsvp]) {
-      html += '<sub>' + rsvpEmoji[r.rsvp] + '</sub>'
+      html += '<sup>' + rsvpEmoji[r.rsvp] + '</sup>'
     }
     html += '</a>'
 
@@ -180,7 +180,7 @@ A more detailed example:
   }
 
   function formatReactions (reacts) {
-    let html = '<h2>Appreciation</h2><ul class="reacts">'
+    let html = '<h2>Webmention likes:</h2><ul class="reacts">'
 
     reacts.forEach(function (r) {
       html += '<li><div class="webmention">'
@@ -191,7 +191,7 @@ A more detailed example:
   }
 
   function formatComments (comments) {
-    let html = '<h2>Webmentions:</h2><ul class="comments">'
+    //  let html = '<h2>Webmentions:</h2><ul class="comments">'
     // comments.forEach(function (c) {
     //   html += '<li><div class="webmention">'
 
