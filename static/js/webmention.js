@@ -192,44 +192,44 @@ A more detailed example:
 
   function formatComments (comments) {
     let html = '<h2>Webmentions</h2><ul class="comments">'
-    comments.forEach(function (c) {
-      html += '<li><div class="webmention">'
+    // comments.forEach(function (c) {
+    //   html += '<li><div class="webmention">'
 
-      html += '<div class="webmention__meta"><a class="source" rel="nofollow ugc" href="' +
-        c[mentionSource] + '">'
-      if (c.author && c.author.name) {
-        html += entities(c.author.name)
-      } else {
-        html += entities(c.url.split('/')[2])
-      }
+    //   html += '<div class="webmention__meta"><a class="source" rel="nofollow ugc" href="' +
+    //     c[mentionSource] + '">'
+    //   if (c.author && c.author.name) {
+    //     html += entities(c.author.name)
+    //   } else {
+    //     html += entities(c.url.split('/')[2])
+    //   }
 
-      html += '</a> ' + reactImage(c) + ' ' + publishDate(c.published) + '</div>'
+    //   html += '</a> ' + reactImage(c) + ' ' + publishDate(c.published) + '</div>'
 
-      let linkclass
-      let linktext
-      if (c.content && c.content.text) {
-        let text = entities(c.content.text)
+    //   let linkclass
+    //   let linktext
+    //   if (c.content && c.content.text) {
+    //     let text = entities(c.content.text)
 
-        if (textMaxWords) {
-          let words = text.replace(/\s+/g, ' ')
-            .split(' ', textMaxWords + 1)
-          if (words.length > textMaxWords) {
-            words[textMaxWords - 1] += '&hellip;'
-            words = words.slice(0, textMaxWords)
-            text = words.join(' ')
-          }
-        }
-        linkclass = 'text'
-        linktext = text
-      } else {
-        linkclass = 'name'
-        linktext = '(mention)'
-      }
+    //     if (textMaxWords) {
+    //       let words = text.replace(/\s+/g, ' ')
+    //         .split(' ', textMaxWords + 1)
+    //       if (words.length > textMaxWords) {
+    //         words[textMaxWords - 1] += '&hellip;'
+    //         words = words.slice(0, textMaxWords)
+    //         text = words.join(' ')
+    //       }
+    //     }
+    //     linkclass = 'text'
+    //     linktext = text
+    //   } else {
+    //     linkclass = 'name'
+    //     linktext = '(mention)'
+    //   }
 
-      html += '<div class="webmention__content ' + linkclass + '">' + linktext + '</div>'
+    //   html += '<div class="webmention__content ' + linkclass + '">' + linktext + '</div>'
 
-      html += '</div></li>'
-    })
+    //   html += '</div></li>'
+    // })
 
     return html
   }
