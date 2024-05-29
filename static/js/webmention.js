@@ -140,7 +140,7 @@ A more detailed example:
     }
     html += (reactEmoji[r['wm-property']] )
     if (r.rsvp && rsvpEmoji[r.rsvp]) {
-      html += '<sup>' + rsvpEmoji[r.rsvp] + '</sup>'
+      html += '<sub>' + rsvpEmoji[r.rsvp] + '</sub>'
     }
     html += '</a>'
 
