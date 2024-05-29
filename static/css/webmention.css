@@ -73,11 +73,10 @@
 #webmentions .comments li .name {
     color: #111;
 }
-/* #webmentions img {
+#webmentions img {
     max-width: 30px;
-    max-height: 30px;
     border-radius: 50%;
-} */
+}
 
 img.tinylytics_webring_avatar {
     max-width: 10%;
