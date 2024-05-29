@@ -46,12 +46,12 @@
     margin-right: 1ex;
 }
 
-#webmentions a.reaction img {
+/* #webmentions a.reaction img {
     max-height: 1.3em;
     width: auto;
     margin-right: -1ex;
     border-radius: 25%;
-}
+} */
 
 #webmentions a.reaction sub {
     font-size: 50%;
@@ -75,6 +75,7 @@
 #webmentions img {
     max-width: 30px;
     max-height: 30px;
+    border-radius: 50%;
 }
 
 tinylytics_webring_avatar{
