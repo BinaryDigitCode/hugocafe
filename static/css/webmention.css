@@ -60,7 +60,7 @@
 #webmentions .comments li {
     white-space: nowrap;
     text-overflow: ellipsis;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 #webmentions .comments li .text {
