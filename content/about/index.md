@@ -28,7 +28,7 @@ Welcome to my personal space to gather random thoughts, how-tos, and things I ga
 
 - Contact form powered by [Letterbird](https://letterbird.co/).
 
-- Current Webrings: [CSS JOY](https://cs.sjoy.lol/) and [Tinylytics](https://tinylytics.app/).
+- Current Webring: [CSS JOY](https://cs.sjoy.lol/)
 
 ## Referrals
 

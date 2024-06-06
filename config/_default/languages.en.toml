@@ -19,7 +19,6 @@ image = "images/AC-Profile-Photo.png"
 headline = "My digital home for hobbies and notes"
 bio = "My digital home for hobbies and notes"
 links = [
-    { notebook = "https://notes.binarydigit.cafe/" },
     { clock = "https://now.binarydigit.cafe"},
     { link = "https://links.binarydigit.cafe"},
     { mastodon = "https://social.lol/@BinaryDigit/" },
