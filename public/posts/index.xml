@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-    <lastBuildDate>Mon, 27 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://binarydigit.cafe/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://binarydigit.cafe/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DJ Controller</title>
+      <link>https://binarydigit.cafe/posts/dj-controller/</link>
+      <pubDate>Thu, 06 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://binarydigit.cafe/posts/dj-controller/</guid>
+      <description>Traktor S2 Mk3</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://binarydigit.cafe/posts/dj-controller/feature-controller.jpg" />
+    </item>
+    
     <item>
       <title>Always Tinkering</title>
       <link>https://binarydigit.cafe/posts/always-tinkering/</link>

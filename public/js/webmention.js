@@ -108,11 +108,11 @@ A more detailed example:
   }
 
   const reactEmoji = {
-    'in-reply-to': '',
-    'like-of': '',
-    'repost-of': '',
-    'bookmark-of': '',
-    'mention-of': '',
+    'in-reply-to': '↪️',
+    'like-of': '⭐️',
+    'repost-of': '🔁',
+    'bookmark-of': '🔖',
+    'mention-of': '🗣️',
     rsvp: '',
     'follow-of': ''
   }
@@ -138,10 +138,10 @@ A more detailed example:
     if (r.author && r.author.photo) {
       html += '<img class="webmention__author__img" src="' + entities(r.author.photo) + '">'
     }
-    // html += (reactEmoji[r['wm-property']] )
-    // if (r.rsvp && rsvpEmoji[r.rsvp]) {
-    //   html += '<sub>' + rsvpEmoji[r.rsvp] + '</sub>'
-    // }
+    html += (reactEmoji[r['wm-property']] )
+    if (r.rsvp && rsvpEmoji[r.rsvp]) {
+      html += '<sub>' + rsvpEmoji[r.rsvp] + '</sub>'
+    }
     html += '</a>'
 
     return html
@@ -179,54 +179,9 @@ A more detailed example:
     return filtered
   }
 
-  function formatComments (comments) {
-    let html = '<h2>Webmentions</h2><ul class="comments">'
-    comments.forEach(function (c) {
-      html += '<li><div class="webmention">'
-
-      html += '<div class="webmention__meta"><a class="source" rel="nofollow ugc" href="' +
-        c[mentionSource] + '">'
-      if (c.author && c.author.name) {
-        html += entities(c.author.name)
-      } else {
-        html += entities(c.url.split('/')[2])
-      }
-
-      html += '</a> ' + reactImage(c) + ' ' + publishDate(c.published) + '</div>'
-
-      let linkclass
-      let linktext
-      if (c.content && c.content.text) {
-        let text = entities(c.content.text)
-
-        if (textMaxWords) {
-          let words = text.replace(/\s+/g, ' ')
-            .split(' ', textMaxWords + 1)
-          if (words.length > textMaxWords) {
-            words[textMaxWords - 1] += '&hellip;'
-            words = words.slice(0, textMaxWords)
-            text = words.join(' ')
-          }
-        }
-        linkclass = 'text'
-        linktext = text
-      } else {
-        linkclass = 'name'
-        linktext = '(mention)'
-      }
-
-      html += '<div class="webmention__content ' + linkclass + '">' + linktext + '</div>'
-
-      html += '</div></li>'
-    })
-    html += '</ul><div class="page-separator"><hr /></div>'
-
-    return html
-  }
-
   function formatReactions (reacts) {
-    let html = '<h2>Appreciation</h2><ul class="reacts">'
-
+    // let html = '<h2>Webmentions</h2><ul class="reacts">'
+    let html = '<ul class="reacts">'
     reacts.forEach(function (r) {
       html += '<li><div class="webmention">'
       html += reactImage(r)
@@ -234,6 +189,52 @@ A more detailed example:
 
     return html
   }
+
+  function formatComments (comments) {
+     let html = '<h2>Likes:</h2><ul class="comments">'
+    // comments.forEach(function (c) {
+    //   html += '<li><div class="webmention">'
+
+    //   html += '<div class="webmention__meta"><a class="source" rel="nofollow ugc" href="' +
+    //     c[mentionSource] + '">'
+    //   if (c.author && c.author.name) {
+    //     html += entities(c.author.name)
+    //   } else {
+    //     html += entities(c.url.split('/')[2])
+    //   }
+
+    //   html += '</a> ' + reactImage(c) + ' ' + publishDate(c.published) + '</div>'
+
+    //   let linkclass
+    //   let linktext
+    //   if (c.content && c.content.text) {
+    //     let text = entities(c.content.text)
+
+    //     if (textMaxWords) {
+    //       let words = text.replace(/\s+/g, ' ')
+    //         .split(' ', textMaxWords + 1)
+    //       if (words.length > textMaxWords) {
+    //         words[textMaxWords - 1] += '&hellip;'
+    //         words = words.slice(0, textMaxWords)
+    //         text = words.join(' ')
+    //       }
+    //     }
+    //     linkclass = 'text'
+    //     linktext = text
+    //   } else {
+    //     linkclass = 'name'
+    //     linktext = '(mention)'
+    //   }
+
+    //   html += '<div class="webmention__content ' + linkclass + '">' + linktext + '</div>'
+
+    //   html += '</div></li>'
+    // })
+
+    return html
+  }
+
+
 
   function getData (url, callback) {
     if (window.fetch) {
@@ -314,10 +315,10 @@ A more detailed example:
       }
       container.innerHTML = html
       // Just show counts of webmentions
-      //   const count = comments.length + collects.length
-      //   if (count > 0) {
-      //     counter.innerHTML = count
-      //   }
+        const count = comments.length + collects.length
+        if (count > 0) {
+          counter.innerHTML = count
+        }
     })
   })
 }())

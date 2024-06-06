@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-    <lastBuildDate>Mon, 27 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://binarydigit.cafe/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://binarydigit.cafe/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DJ Controller</title>
+      <link>https://binarydigit.cafe/posts/dj-controller/</link>
+      <pubDate>Thu, 06 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://binarydigit.cafe/posts/dj-controller/</guid>
+      <description>Traktor S2 Mk3</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://binarydigit.cafe/posts/dj-controller/feature-controller.jpg" />
+    </item>
+    
     <item>
       <title>Always Tinkering</title>
       <link>https://binarydigit.cafe/posts/always-tinkering/</link>
@@ -20,10 +30,10 @@
     
     <item>
       <title>Fave links, a test</title>
-      <link>https://binarydigit.cafe/links/test/</link>
+      <link>https://binarydigit.cafe/links/index-05-01/</link>
       <pubDate>Mon, 27 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://binarydigit.cafe/links/test/</guid>
+      <guid>https://binarydigit.cafe/links/index-05-01/</guid>
       <description>https://example.</description>
       
     </item>
@@ -174,7 +184,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://binarydigit.cafe/about/</guid>
-      <description>About Me # I’m B (aka Liz), a Xennial who grew up when the internet was young, just as I was.</description>
+      <description>I’m B, a Xennial who grew up when the internet was young, just as I was.</description>
       
     </item>
     

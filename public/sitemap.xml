@@ -4,7 +4,19 @@
 
   <url>
     <loc>https://binarydigit.cafe/</loc>
-    <lastmod>2024-05-27T00:00:00+00:00</lastmod>
+    <lastmod>2024-06-06T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://binarydigit.cafe/posts/dj-controller/</loc>
+    <lastmod>2024-06-06T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://binarydigit.cafe/posts/</loc>
+    <lastmod>2024-06-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -15,19 +27,13 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://binarydigit.cafe/links/test/</loc>
+    <loc>https://binarydigit.cafe/links/index-05-01/</loc>
     <lastmod>2024-05-27T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://binarydigit.cafe/links/</loc>
-    <lastmod>2024-05-27T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://binarydigit.cafe/posts/</loc>
     <lastmod>2024-05-27T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
