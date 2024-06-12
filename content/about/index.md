@@ -24,8 +24,6 @@ Welcome to my personal space to gather random thoughts, how-tos, and things I ga
 
 - [Webmentions](https://www.w3.org/TR/webmention/) are used to collect "likes" but no comments are displayed.
 
-- Comments powered by [Giscus](https://giscus.app).
-
 - Contact form powered by [Letterbird](https://letterbird.co/).
 
 - Current Webring: [CSS JOY](https://cs.sjoy.lol/)
