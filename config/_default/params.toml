@@ -33,7 +33,7 @@ smartTOCHideUnfocusedChildren = true
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
   homepageImage = "images/background-shapes-freepik.jpg" # used in: hero, and card
-  showRecent = true
+  showRecent = false
   showRecentItems = 3
   showMoreLink = false
   showMoreLinkDest = "/posts"
